@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap");
+
+html,
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: #003c71;
+  padding: 30px;
+  color: white;
+  text-transform: uppercase;
+}
+
+#root {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: normal;
+  justify-content: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: normal;
+  align-items: center;
+  align-content: normal;
+  border-bottom: rgba(255, 255, 255, 0.1) solid 1px;
+  /*background: #003c71;*/
+}
+
+.flex-items:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-items:nth-child(2) {
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-container > input {
+  margin-right: 10px;
+  outline: white 1px solid !important;
+}
+
+.app-cont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 850px;
+  /*background-color: yellow;*/
+}
+
+.list-cont,
+.product-cont {
+  width: 50%;
+}
+
+.product-content {
+  margin-left: 20px;
+}
+
+.product-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  background: white;
+}
+
+.product-hl {
+  font-size: 3em;
+  line-height: 0.75em;
+  font-family: "Pathway Gothic One", sans-serif;
+}
+
+.product-sh-cont * {
+  margin-top: 10px;
+}
+
+sup {
+  font-size: 0.5em;
+}
+
+.input-buttons-cont {
+  margin-top: 40px;
+}
+
+#sh-1 {
+  margin-top: 15px;
+}
+
+.input-buttons-cont * {
+  padding: 5px 15px 5px 15px;
+  border-radius: 1.5em;
+  font-size: 0.7em;
+}
+
+.divider {
+  height: 1px;
+  margin-top: 20px;
+  border-bottom: 1px solid white;
+}
+
+.clear-btn {
+  margin-left: 10px;
+}

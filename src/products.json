@@ -1,0 +1,98 @@
+[
+  {
+    "usage": "UNLOCKED & OVERCLOCKABLE",
+    "i": "9",
+    "platform": "DESKTOP POWERED BY THE",
+    "product": "10th Gen Intel® Core™ i5-10600K Processor",
+    "speed": "Up To 4.8 GHz Clock Speed¹",
+    "cores_threads": "With 6 Cores & 12 Threads",
+    "built_for": "Built for Seamless Streaming & AAA Gaming<br />Unlocked & Overclockable²",
+    "completed": false,
+    "image": "",
+    "number": 0
+  },
+  {
+    "usage": "SEAMLESS AAA GAMING",
+    "i": "5",
+    "platform": "DESKTOP POWERED BY THE",
+    "product": "10th Gen Intel® Core™ i5-10600K Processor",
+    "speed": "Up To 4.8 GHz Clock Speed¹",
+    "cores_threads": "With 6 Cores & 12 Threads",
+    "built_for": "Built for Seamless Streaming & AAA Gaming<br />Unlocked & Overclockable²",
+    "completed": false,
+    "image": "",
+    "number": 1
+  },
+  {
+    "usage": "COMPETITIVE GAMING",
+    "i": "6",
+    "platform": "DESKTOP POWERED BY THE",
+    "product": "10th Gen Intel® Core™ i5-10600K Processor",
+    "speed": "Up To 4.8 GHz Clock Speed¹",
+    "cores_threads": "With 6 Cores & 12 Threads",
+    "built_for": "Built for Seamless Streaming & AAA Gaming<br />Unlocked & Overclockable²",
+    "completed": false,
+    "image": "",
+    "number": 2
+  },
+  {
+    "usage": "PEAK GAMING PERFORMANCE",
+    "i": "7",
+    "platform": "DESKTOP POWERED BY THE",
+    "product": "10th Gen Intel® Core™ i5-10600K Processor",
+    "speed": "Up To 4.8 GHz Clock Speed¹",
+    "cores_threads": "With 6 Cores & 12 Threads",
+    "built_for": "Built for Seamless Streaming & AAA Gaming<br />Unlocked & Overclockable²",
+    "completed": false,
+    "image": "",
+    "number": 3
+  },
+  {
+    "usage": "STREAMING",
+    "i": "9",
+    "platform": "DESKTOP POWERED BY THE",
+    "product": "10th Gen Intel® Core™ i5-10600K Processor",
+    "speed": "Up To 4.8 GHz Clock Speed¹",
+    "cores_threads": "With 6 Cores & 12 Threads",
+    "built_for": "Built for Seamless Streaming & AAA Gaming<br />Unlocked & Overclockable²",
+    "completed": false,
+    "image": "",
+    "number": 4
+  },
+  {
+    "usage": "STREAMING & RECORDING",
+    "i": "9",
+    "platform": "DESKTOP POWERED BY THE",
+    "product": "10th Gen Intel® Core™ i5-10600K Processor",
+    "speed": "Up To 4.8 GHz Clock Speed¹",
+    "cores_threads": "With 6 Cores & 12 Threads",
+    "built_for": "Built for Seamless Streaming & AAA Gaming<br />Unlocked & Overclockable²",
+    "completed": false,
+    "image": "",
+    "number": 5
+  },
+  {
+    "usage": "ADVANCED CONTENT CREATION",
+    "i": "9",
+    "platform": "DESKTOP POWERED BY THE",
+    "product": "10th Gen Intel® Core™ i5-10600K Processor",
+    "speed": "Up To 4.8 GHz Clock Speed¹",
+    "cores_threads": "With 6 Cores & 12 Threads",
+    "built_for": "Built for Seamless Streaming & AAA Gaming<br />Unlocked & Overclockable²",
+    "completed": false,
+    "image": "",
+    "number": 6
+  },
+  {
+    "usage": "ENTHUSIAST-LEVEL CONTENT CREATION",
+    "i": "9",
+    "platform": "DESKTOP POWERED BY THE",
+    "product": "10th Gen Intel® Core™ i5-10600K Processor",
+    "speed": "Up To 4.8 GHz Clock Speed¹",
+    "cores_threads": "With 6 Cores & 12 Threads",
+    "built_for": "Built for Seamless Streaming & AAA Gaming<br />Unlocked & Overclockable²",
+    "completed": false,
+    "image": "",
+    "number": 7
+  }
+]
