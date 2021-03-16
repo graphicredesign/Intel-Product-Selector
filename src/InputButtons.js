@@ -1,13 +1,15 @@
 import React from "react";
 
-import "./styles.css";
+import "./styles.scss";
 
 export default class InputButtons extends React.Component {
   render() {
     return (
-      <div className="input-buttons-cont">
-        <input type="button" className="submit-btn" value="SUBMIT"></input>
-        <input type="button" className="clear-btn" value="CLEAR"></input>
+      <div className="input-buttons-cont flex-nowrap">
+        <div className="submit-btn">SUBMIT</div>
+        <div type="button" className="clear-btn">
+          CLEAR
+        </div>
       </div>
     );
   }

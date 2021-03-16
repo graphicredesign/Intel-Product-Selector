@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.css";
+import "./styles.scss";
 
 class Product extends React.Component {
   render() {
@@ -24,7 +24,10 @@ class Product extends React.Component {
               With 8 Cores & 16 Threads
             </div>
           </div>
-          <div className="product-footer"></div>
+          <div className="divider"></div>
+          <div className="product-footer">
+            Take Advanced Gaming & Creative Power Anywhere
+          </div>
         </div>
       </div>
     );

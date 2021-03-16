@@ -2,7 +2,7 @@ import React from "react";
 import CheckItem from "./CheckItem";
 import productList from "./products.json";
 
-import "./styles.css";
+import "./styles.scss";
 
 class CheckList extends React.Component {
   constructor() {

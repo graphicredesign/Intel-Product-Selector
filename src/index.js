@@ -3,7 +3,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 //import App from "./App";
-import "./styles.css";
+import "./styles.scss";
 import CheckList from "./CheckList";
 import Product from "./Product";
 import InputButtons from "./InputButtons";
@@ -11,7 +11,7 @@ import InputButtons from "./InputButtons";
 class Main extends React.Component {
   render() {
     return (
-      <div className="app-cont">
+      <div className="app-cont flex-wrap">
         <div className="list-cont">
           <CheckList />
         </div>
