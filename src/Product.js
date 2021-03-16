@@ -26,7 +26,7 @@ class Product extends React.Component {
           </div>
           <div className="divider"></div>
           <div className="product-footer">
-            Take Advanced Gaming & Creative Power Anywhere
+            Take Advanced Gaming &&nbsp;Creative&nbsp;Power&nbsp;Anywhere
           </div>
         </div>
       </div>

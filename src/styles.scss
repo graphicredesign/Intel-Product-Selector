@@ -22,6 +22,7 @@ body {
   justify-content: center;
 }
 
+/* Global */
 .flex-nowrap {
   display: flex;
   flex-direction: row;
@@ -34,6 +35,17 @@ body {
   flex-wrap: wrap;
 }
 
+sup {
+  font-size: 0.45em;
+}
+
+.divider {
+  height: 1px;
+  margin: 20px 0px 20px 0px;
+  border-bottom: $divider-color;
+}
+
+/* List */
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -42,9 +54,7 @@ body {
   align-items: center;
   align-content: normal;
   border-bottom: $divider-color;
-  /*background: #003c71;*/
 }
-
 .flex-items:nth-child(1) {
   display: block;
   flex-grow: 0;
@@ -53,7 +63,6 @@ body {
   align-self: auto;
   order: 0;
 }
-
 .flex-items:nth-child(2) {
   display: block;
   flex-grow: 0;
@@ -62,26 +71,25 @@ body {
   align-self: auto;
   order: 0;
 }
-
 .flex-container > input {
   margin-right: 10px;
   outline: white 1px solid !important;
+  cursor: pointer;
 }
 
+/* App */
 .app-cont {
   max-width: 850px;
-  /*background-color: yellow;*/
 }
-
 .list-cont,
 .product-cont {
   width: 50%;
 }
-
 .product-content {
   margin-left: 20px;
 }
 
+/* Icon */
 .product-icon {
   width: 100px;
   height: 100px;
@@ -89,46 +97,39 @@ body {
   background: white;
 }
 
+/* Headlines */
 .product-hl {
   font-size: 3em;
   line-height: 0.75em;
   font-family: "Pathway Gothic One", sans-serif;
 }
 
+/* Subheads */
 .product-sh-cont * {
-  margin-top: 10px;
+ /* margin-top: 10px; */
+}
+#sh-1 {
+  /* margin-top: 15px; */
 }
 
-sup {
-  font-size: 0.5em;
-}
-
+/* Buttons */
 .input-buttons-cont {
   margin-top: 40px;
 }
-
-#sh-1 {
-  margin-top: 15px;
-}
-
-.product-footer{
-  margin-top: 20px;
-}
-
-.divider {
-  height: 1px;
-  margin-top: 20px;
-  border-bottom: $divider-color;
-}
-
-/*Buttons*/
 .input-buttons-cont * {
   padding: 5px 15px 5px 15px;
   border-radius: 1.5em;
   font-size: 0.6em;
   background: white;
   color: $base-color;
+  cursor: pointer;
 }
 .clear-btn {
   margin-left: 10px;
+}
+
+/* Footer */
+.product-footer{
+  text-transform: none;
+  line-height: 1.3em;
 }
