@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap");
 
 $base-color: #003c71;
-$divider-color: rgba(255, 255, 255, 0.1) solid 1px;
+$divider-color: rgba(255, 255, 255, 0.2) solid 1px;
 
 html,
 body {
@@ -20,6 +20,7 @@ body {
   align-items: center;
   align-content: normal;
   justify-content: center;
+  height: 100%;
 }
 
 /* Global */
@@ -54,6 +55,7 @@ sup {
   align-items: center;
   align-content: normal;
   border-bottom: $divider-color;
+  width: 90%;
 }
 .flex-items:nth-child(1) {
   display: block;
@@ -104,14 +106,6 @@ sup {
   font-family: "Pathway Gothic One", sans-serif;
 }
 
-/* Subheads */
-.product-sh-cont * {
- /* margin-top: 10px; */
-}
-#sh-1 {
-  /* margin-top: 15px; */
-}
-
 /* Buttons */
 .input-buttons-cont {
   margin-top: 40px;
@@ -119,7 +113,7 @@ sup {
 .input-buttons-cont * {
   padding: 5px 15px 5px 15px;
   border-radius: 1.5em;
-  font-size: 0.6em;
+  font-size: 0.7em;
   background: white;
   color: $base-color;
   cursor: pointer;

@@ -14,12 +14,10 @@ class Main extends React.Component {
       <div className="app-cont flex-wrap">
         <div className="list-cont">
           <CheckList />
+          <InputButtons />
         </div>
         <div className="product-cont">
           <Product />
-        </div>
-        <div className="input-cont">
-          <InputButtons />
         </div>
       </div>
     );

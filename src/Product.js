@@ -18,15 +18,15 @@ class Product extends React.Component {
           <div className="divider"></div>
           <div className="product-sh-cont">
             <div id="sh-1" className="product-sh">
-              Up To 5.1 GHz Clock Speed<sup>1</sup>
+              Up To 5.1 GHz Clock&nbsp;Speed<sup>1</sup>
             </div>
             <div id="sh-2" className="product-sh">
-              With 8 Cores & 16 Threads
+              With 8 Cores &&nbsp;16&nbsp;Threads
             </div>
           </div>
           <div className="divider"></div>
           <div className="product-footer">
-            Take Advanced Gaming &&nbsp;Creative&nbsp;Power&nbsp;Anywhere
+            Take Advanced&nbsp;Gaming & Creative Power&nbsp;Anywhere
           </div>
         </div>
       </div>
