@@ -36,7 +36,20 @@ class CheckList extends React.Component {
         handleChange={this.handleChange}
       />
     ));
-    return list;
+
+    return (
+      <>
+        <div className="product-hl default">FOR HOWEVER YOU&nbsp;GAME</div>
+
+        <div className="callout">Choose your objective(s).</div>
+
+        <div className="toggle-btn buttons">
+          <div className="buttons toggle-left-btn">Desktop</div>
+          <div className="buttons toggle-right-btn">Laptop</div>
+        </div>
+        {list}
+      </>
+    );
   }
 }
 

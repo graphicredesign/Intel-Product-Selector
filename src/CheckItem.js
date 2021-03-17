@@ -3,7 +3,7 @@ import "./styles.scss";
 
 function CheckItem(props) {
   return (
-    <div>
+    <div className="check-item">
       <div className="flex-container">
         <input
           className="flex-items"

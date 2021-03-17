@@ -12,7 +12,6 @@ body {
   color: white;
   text-transform: uppercase;
 }
-
 #root {
   display: flex;
   flex-direction: row;
@@ -29,17 +28,14 @@ body {
   flex-direction: row;
   flex-wrap: nowrap;
 }
-
 .flex-wrap {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-
 sup {
   font-size: 0.45em;
 }
-
 .divider {
   height: 1px;
   margin: 20px 0px 20px 0px;
@@ -78,6 +74,10 @@ sup {
   outline: white 1px solid !important;
   cursor: pointer;
 }
+.check-item{
+  border-top: $divider-color;
+  display:none;
+}
 
 /* App */
 .app-cont {
@@ -95,7 +95,7 @@ sup {
 .product-icon {
   width: 100px;
   height: 100px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   background: white;
 }
 
@@ -105,18 +105,42 @@ sup {
   line-height: 0.75em;
   font-family: "Pathway Gothic One", sans-serif;
 }
+.product-hl.default {
+  line-height: .9em;
+}
+.callout{
+  margin-top: 20px;
+  font-size: .8em;
+}
 
 /* Buttons */
 .input-buttons-cont {
   margin-top: 40px;
 }
-.input-buttons-cont * {
+.buttons {
   padding: 5px 15px 5px 15px;
   border-radius: 1.5em;
   font-size: 0.7em;
   background: white;
   color: $base-color;
   cursor: pointer;
+  display: inline-block;
+}
+.toggle-btn{
+  margin: 20px 0px 20px 0px;
+  padding: 0px;
+  border: 1px solid white;
+  transform: scale(1.4);
+  transform-origin: center left;
+}
+.toggle-left-btn{
+  background: $base-color;
+  border-radius: 1.5em 0px 0px 1.5em;
+  color: white;
+}
+.toggle-right-btn{
+  border-radius: 0px 1.5em 1.5em 0px;
+  background: white;
 }
 .clear-btn {
   margin-left: 10px;
@@ -125,5 +149,5 @@ sup {
 /* Footer */
 .product-footer{
   text-transform: none;
-  line-height: 1.3em;
+  line-height: 1.1em;
 }
