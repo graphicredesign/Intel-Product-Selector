@@ -28,6 +28,7 @@ class Product extends React.Component {
           <div className="product-footer">
             Take Advanced&nbsp;Gaming & Creative Power&nbsp;Anywhere
           </div>
+          <div className="backdrop-body"></div>
         </div>
       </div>
     );

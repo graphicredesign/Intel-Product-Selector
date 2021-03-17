@@ -19,7 +19,7 @@ body {
   align-items: center;
   align-content: normal;
   justify-content: center;
-  height: 100%;
+  height: 100vh;
 }
 
 /* Global */
@@ -74,9 +74,8 @@ sup {
   outline: white 1px solid !important;
   cursor: pointer;
 }
-.check-item{
-  border-top: $divider-color;
-  display:none;
+.list-cont > div:nth-child(4) > div{
+  border-top: $divider-color;  
 }
 
 /* App */
@@ -89,6 +88,14 @@ sup {
 }
 .product-content {
   margin-left: 20px;
+  position:relative;
+}
+.backdrop-body{
+  position: absolute;
+  top:0;
+  width: 200%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
 }
 
 /* Icon */
@@ -127,11 +134,12 @@ sup {
   display: inline-block;
 }
 .toggle-btn{
-  margin: 20px 0px 20px 0px;
+  margin: 20px 0px 40px 0px;
   padding: 0px;
   border: 1px solid white;
   transform: scale(1.4);
   transform-origin: center left;
+  min-width: 133.641px;
 }
 .toggle-left-btn{
   background: $base-color;
