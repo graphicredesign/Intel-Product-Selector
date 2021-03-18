@@ -57,10 +57,11 @@ sup {
   border-bottom: $divider-color;
   width: 90%;
 }
-
-
 .list-cont > div:nth-child(4) > div{
   border-top: $divider-color;  
+}
+.flex-items{
+  margin-left:10px;
 }
 
 /* App */
@@ -136,6 +137,7 @@ sup {
 .white-button{
   background: white;
   color: $base-color;
+  transform: scale(1.02);
 }
 .toggle-btn{
   margin: 20px 0px 40px 0px;
