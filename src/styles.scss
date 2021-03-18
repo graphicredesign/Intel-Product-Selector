@@ -41,7 +41,11 @@ sup {
   margin: 20px 0px 20px 0px;
   border-bottom: $divider-color;
 }
-
+.product-inner-cont .divider{
+  height: 1px;
+  margin: 20px 0px 20px 0px;
+  border-bottom: rgba(0, 0, 0, 0.2) 1px solid;
+}
 /* List */
 .flex-container {
   display: flex;
@@ -53,27 +57,8 @@ sup {
   border-bottom: $divider-color;
   width: 90%;
 }
-.flex-items:nth-child(1) {
-  display: block;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  align-self: auto;
-  order: 0;
-}
-.flex-items:nth-child(2) {
-  display: block;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  align-self: auto;
-  order: 0;
-}
-.flex-container > input {
-  margin-right: 10px;
-  outline: white 1px solid !important;
-  cursor: pointer;
-}
+
+
 .list-cont > div:nth-child(4) > div{
   border-top: $divider-color;  
 }
@@ -87,15 +72,24 @@ sup {
   width: 50%;
 }
 .product-content {
-  margin-left: 20px;
+  top: 50%;
+  position: relative;
+  transform: translateY(-60%);
+  color: $base-color;
+}
+.product-content *{
   position:relative;
+  z-index:1;
 }
 .backdrop-body{
   position: absolute;
-  top:0;
   width: 200%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.2);
+  height: 170%;
+  transform: translateY(-50%);
+  top:50%;
+  background: white;
+  z-index:0;
+  clip-path: polygon(0 27%, 100% 0, 100% 100%, 0 80%);
 }
 
 /* Icon */
@@ -103,7 +97,7 @@ sup {
   width: 100px;
   height: 100px;
   margin-bottom: 25px;
-  background: white;
+  background:gray;
 }
 
 /* Headlines */
@@ -119,19 +113,29 @@ sup {
   margin-top: 20px;
   font-size: .8em;
 }
+.product-inner-cont{
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
 
 /* Buttons */
 .input-buttons-cont {
   margin-top: 40px;
 }
+.input-buttons-cont *{
+  border: 1px solid white;
+}
 .buttons {
   padding: 5px 15px 5px 15px;
   border-radius: 1.5em;
   font-size: 0.7em;
-  background: white;
-  color: $base-color;
   cursor: pointer;
   display: inline-block;
+  
+}
+.white-button{
+  background: white;
+  color: $base-color;
 }
 .toggle-btn{
   margin: 20px 0px 40px 0px;
@@ -142,13 +146,10 @@ sup {
   min-width: 133.641px;
 }
 .toggle-left-btn{
-  background: $base-color;
   border-radius: 1.5em 0px 0px 1.5em;
-  color: white;
 }
 .toggle-right-btn{
   border-radius: 0px 1.5em 1.5em 0px;
-  background: white;
 }
 .clear-btn {
   margin-left: 10px;
