@@ -1,6 +1,7 @@
 import React from "react";
 import CheckItem from "./CheckItem";
 import productList from "./products.json";
+import $ from "jquery";
 
 import "./styles.scss";
 
@@ -20,6 +21,10 @@ class CheckList extends React.Component {
         if (p.i === i) {
           //console.log(`Items Matched: ${i}`);
           p.completed = !p.completed;
+          if (p.i === i) {
+            console.log(i);
+            console.log($(".product-eyebrow"));
+          }
           //console.log(p.isChecked);
         }
         return newState;
@@ -28,10 +33,30 @@ class CheckList extends React.Component {
     });
   };
 
+  componentDidMount() {
+    var lastToggle = "left";
+    function toggleButton(e) {
+      if (e !== lastToggle) {
+        lastToggle = e;
+        $(".toggle-left-btn").toggleClass("white-button");
+        $(".toggle-right-btn").toggleClass("white-button");
+      } else {
+        lastToggle = e;
+      }
+    }
+    $(".toggle-left-btn").on("click", function () {
+      toggleButton("left");
+    });
+    $(".toggle-right-btn").on("click", function () {
+      toggleButton("right");
+    });
+  }
+
   render() {
     const list = this.state.products.map((item) => (
       <CheckItem
         key={item.number}
+        item={item.number}
         products={item}
         handleChange={this.handleChange}
       />

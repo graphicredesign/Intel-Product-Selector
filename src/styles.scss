@@ -36,16 +36,12 @@ body {
 sup {
   font-size: 0.45em;
 }
-.divider {
-  height: 1px;
-  margin: 20px 0px 20px 0px;
-  border-bottom: $divider-color;
+.white-button{
+  background: white;
+  color: $base-color;
+  transform: scale(1.02);
 }
-.product-inner-cont .divider{
-  height: 1px;
-  margin: 20px 0px 20px 0px;
-  border-bottom: rgba(0, 0, 0, 0.2) 1px solid;
-}
+
 /* List */
 .flex-container {
   display: flex;
@@ -62,6 +58,11 @@ sup {
 }
 .flex-items{
   margin-left:10px;
+}
+.divider {
+  height: 1px;
+  margin: 20px 0px 20px 0px;
+  border-bottom: $divider-color;
 }
 
 /* App */
@@ -92,16 +93,19 @@ sup {
   z-index:0;
   clip-path: polygon(0 27%, 100% 0, 100% 100%, 0 80%);
 }
+.product-inner-cont .divider{
+  height: 1px;
+  margin: 20px 0px 20px 0px;
+  border-bottom: rgba(0, 0, 0, 0.2) 1px solid;
+}
 
-/* Icon */
+/* Headlines */
 .product-icon {
   width: 100px;
   height: 100px;
   margin-bottom: 25px;
   background:gray;
 }
-
-/* Headlines */
 .product-hl {
   font-size: 3em;
   line-height: 0.75em;
@@ -118,6 +122,10 @@ sup {
   padding-left: 20px;
   padding-bottom: 50px;
 }
+.product-footer{
+  text-transform: none;
+  line-height: 1.1em;
+}
 
 /* Buttons */
 .input-buttons-cont {
@@ -132,12 +140,6 @@ sup {
   font-size: 0.7em;
   cursor: pointer;
   display: inline-block;
-  
-}
-.white-button{
-  background: white;
-  color: $base-color;
-  transform: scale(1.02);
 }
 .toggle-btn{
   margin: 20px 0px 40px 0px;
@@ -155,10 +157,4 @@ sup {
 }
 .clear-btn {
   margin-left: 10px;
-}
-
-/* Footer */
-.product-footer{
-  text-transform: none;
-  line-height: 1.1em;
 }

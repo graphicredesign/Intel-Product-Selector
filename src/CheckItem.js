@@ -8,6 +8,7 @@ function CheckItem(props) {
         <input
           className="flex-items"
           type="checkbox"
+          data-item={props.item}
           checked={props.products.isChecked}
           onChange={() => {
             console.log("checked");
